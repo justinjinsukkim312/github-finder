@@ -9,7 +9,7 @@ export class Search extends Component {
 		searchUsers: PropTypes.func.isRequired
 	};
 	onSubmit = e => {
-		e.preventDfeault();
+		e.preventDefault();
 		// passing this value up through props
 		this.props.searchUsers(this.state.text);
 		this.setState({
