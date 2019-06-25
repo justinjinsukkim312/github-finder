@@ -1,2 +1,1 @@
-# github-finder
-github finding app using react and refactoring using hooks
+Github account finding application. First completed using props and state. Then refactored using react hooks.
